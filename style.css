@@ -3,6 +3,7 @@ body {
     font-family: 'Barlow Semi Condensed', sans-serif;
     margin: 0;
     width: 100%;
+    overflow-x: hidden;
 }
 
 h5 {
@@ -35,6 +36,7 @@ span p {
     margin: auto;
     margin-top: 109px;
     width: fit-content;
+    overflow-x: hidden;
 }
 
 /*TESTIMONIALS CODE*/
