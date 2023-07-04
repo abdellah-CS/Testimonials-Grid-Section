@@ -1,0 +1,231 @@
+body {
+    background-color:  hsl(210, 46%, 95%);
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    margin: 0;
+    width: 100%;
+}
+
+h5 {
+    font-weight: 600;
+    color: hsl(210, 46%, 95%);
+    width: 100%;
+    margin-bottom: 24px;
+}
+
+p {
+    font-weight: 500;
+    color: hsl(0, 0%, 81%);
+    font-size: 13px;
+    width: 87%;
+    margin-bottom: 0px;
+    line-height: 1.5;
+}
+
+span {
+    position: relative;
+    bottom: 40px;
+    left: 58px;
+}
+
+span p {
+    margin-bottom: 1rem;
+}
+
+.container {
+    margin: auto;
+    margin-top: 109px;
+    width: fit-content;
+}
+
+/*TESTIMONIALS CODE*/
+
+.test1 {
+    background-color: hsl(263, 55%, 52%);
+    background-image: url(images/bg-pattern-quotation.svg);
+    background-position: 80% top;
+    padding: 28px 41px;
+    background-repeat: no-repeat;
+    background-size: 19%;
+}
+
+.test2 {
+    background-color: hsl(217, 19%, 35%);
+    padding: 28px 46px;
+}
+
+.test3 {
+    background-color: hsl(0, 0%, 100%);
+    padding: 31px;
+    position: relative;
+    top: 17px;
+    height: 101%;
+}
+
+.test4 {
+    background-color: hsl(219, 29%, 14%);
+    padding: 30px 38px;
+    position: relative;
+    top: 19px;
+
+}
+
+.test5 {
+    background-color: hsl(0, 0%, 100%);
+    padding: 30px 40px;
+}
+
+/*TESTIMONIALS DETAILS CODE*/
+
+.test3 h5 {
+    color: hsl(217, 19%, 35%);
+}
+
+.test5 h5 {
+    color: hsl(217, 19%, 35%);
+}
+
+.test3 p {
+    color: hsl(0, 0%, 66%);
+}
+
+.test5 p {
+    color: hsl(0, 0%, 66%);
+}
+
+.test3 .name {
+    color: hsl(217, 19%, 35%);
+}
+
+.test5 .name {
+    color: hsl(217, 19%, 35%);
+}
+
+.name {
+    color: hsl(210, 46%, 95%);
+}
+
+/*PROFILE CODE*/
+
+.profile {
+    height: 54px;
+}
+
+.profile img {
+    border-radius: 100%;
+    width: 40px;
+    border: 1px solid #fff;
+}
+
+/*RANDOMS CODE*/
+
+.t {
+    border-radius: 11px;
+}
+
+.v {
+    position: relative;
+    bottom: 18px;
+}
+
+/*RESPONSIVNESS MEDIA CODE*/
+
+@media only screen and (max-width: 1400px)
+{
+    .container {
+        margin-top: 69px;
+    }
+
+    .test5 .profile {
+        height: 63px;
+    }
+    .test2 p {
+        width: 96%;
+    }
+
+    .test5 h5 {
+        width: 103%;
+    }
+
+    .test5 p {
+        width: 93%;
+    }
+}
+
+@media only screen and (max-width: 1200px)
+{
+    .col-lg-9 {
+        width: 100%;
+    }
+
+    .col-lg-3 {
+        width: 100%;
+        margin-top: 48px;
+    }
+
+    .container {
+        margin-top: 85px;
+        margin-bottom: 85px;
+    }
+}
+
+@media only screen and (max-width: 991px)
+{
+    .t {
+        width: 63%;
+        margin: auto;
+        margin-top: 13px;
+        margin-bottom: 13px;
+    }
+
+    .test1 {
+        background-size: 30%;
+    }
+
+    .test3 {
+        top: 0px;
+        height: 100%;
+    }
+
+    .test4 {
+        margin-top: 19px;
+    }
+
+    .col-lg-3 {
+        margin-top: 19px;
+    }
+}
+
+@media only screen and (max-width: 767px)
+{
+    .t {
+        width: 377px;
+    }
+
+    .test1 {
+        background-size: 40%;
+    }
+
+    .test3 h5 {
+        width: 99%;
+    }
+}
+
+@media only screen and (max-width: 414px)
+{
+    h5 {
+        width: 97%;
+    }
+
+    p {
+        width: 96%;
+    }
+
+    .container .t {
+        width: fit-content;
+        height: fit-content;
+    }
+
+    .container .test4 {
+        margin-top: -3px;
+    }
+}
